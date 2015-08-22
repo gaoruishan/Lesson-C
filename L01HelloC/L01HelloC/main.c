@@ -8,6 +8,14 @@
 
 #include <stdio.h>
 
+//定义方法调用- 在main方法之前声明
+int max(int a,int b){
+      if (a>b) {
+            return a;
+      }else{
+            return b;
+      }
+}
  //说明：参数1:传入的数量；参数2:传入的值
 /*
  *1,打印格式换行，输入的内容中的空格标志，有空格的内容用加“”；printf("%s\n",argv[i]);
@@ -48,13 +56,4 @@ int main(int argc, const char * argv[]) {
       
       return 0;
 }
-/*
- *定义方法调用
- */
-int max(int a,int b){
-      if (a>b) {
-            return a;
-      }else{
-            return b;
-      }
-}
+
