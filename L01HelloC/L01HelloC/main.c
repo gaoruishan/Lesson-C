@@ -27,10 +27,10 @@ int main(int argc, const char * argv[]) {
        */
       printf("Hello,%d\n",100);
       
-      //定义一个缓冲区，字符长度为100 －这是不安全的 当下面使用gets 时。
+      //1,定义一个缓冲区，字符长度为100 －这是不安全的 当下面使用gets 时。
       char buf[100];
       
-      //get 是等待控制台输入，用户回车后 执行下面的代码。
+      //2,get 是等待控制台输入，用户回车后 执行下面的代码。
       gets(buf);
       
       //使用put－输出 s 字符串
@@ -43,6 +43,18 @@ int main(int argc, const char * argv[]) {
       scanf("%d",&a);
       
       printf("%d\n",a);
+      //调用－如果有警告修改项目bulide setting ->all ->C language dailect gnu89
+      printf("%d\n",max(10, 12));
       
-    return 0;
+      return 0;
+}
+/*
+ *定义方法调用
+ */
+int max(int a,int b){
+      if (a>b) {
+            return a;
+      }else{
+            return b;
+      }
 }
