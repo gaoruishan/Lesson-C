@@ -2,6 +2,21 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:L09DemoObjC/L09DemoObjC.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:L08DemoObjC/L08DemoObjC.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:L07DemoObjC/L07DemoObjC.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:L06DemoObjC/L06DemoObjC.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:L05HelloObjC/L05HelloObjC.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:L04DemoC/L04DemoC.xcodeproj">
    </FileRef>
    <FileRef
